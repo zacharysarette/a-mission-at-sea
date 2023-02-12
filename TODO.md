@@ -2,7 +2,7 @@
 
 ## Planned
 
-- Set Up Git Repo
+## Working
 
 - Get The Story System Working
 
@@ -14,10 +14,10 @@
 
   - Get the system working with Events
 
-## Working
-
 ## Done
 
 - Install Packages
 
   - Ink
+
+- Set Up Git Repo
