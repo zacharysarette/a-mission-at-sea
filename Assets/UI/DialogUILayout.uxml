@@ -2,7 +2,10 @@
     <ui:VisualElement name="root" style="flex-grow: 1;">
         <ui:VisualElement name="storyContainer" style="top: 0; flex-direction: row-reverse; flex-basis: 20%; align-items: flex-start; background-color: rgb(115, 78, 9); justify-content: space-between;">
             <ui:Button text="Continue" display-tooltip-when-elided="true" name="continueButton" style="margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px;" />
-            <ui:VisualElement name="textContainer" style="align-items: flex-start; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; height: 70px; width: 227px; justify-content: center; right: 0; flex-grow: 1; flex-direction: row;" />
+            <ui:VisualElement name="buttonContainer" />
+            <ui:VisualElement name="textContainer" style="align-items: center; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; height: 70px; width: 227px; justify-content: space-around; right: 0; flex-grow: 1; flex-direction: row; -unity-text-align: middle-left; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-font: resource(&apos;FlatSkin/Font/Roboto-Italic&apos;); bottom: 0; flex-shrink: 1;">
+                <ui:Label text="Honoka arrived at the boat party, her mind already focused on her mission: obtain the key to the organization&apos;s secret safe." display-tooltip-when-elided="true" name="textLabel" style="white-space: normal;" />
+            </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
