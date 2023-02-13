@@ -8,7 +8,8 @@
 
   - Setup UI
 
-  - Setup Ink Script for compoenent
+  - Setup Ink Script for component
+    - Match Ink Version to Unity Package
 
   - Setup Dialog Component
 

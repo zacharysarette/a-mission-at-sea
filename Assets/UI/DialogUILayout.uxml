@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1;">
+        <ui:VisualElement name="storyContainer" style="top: 0; flex-direction: row-reverse; flex-basis: 20%; align-items: flex-start; background-color: rgb(115, 78, 9); justify-content: space-between;">
+            <ui:Button text="Continue" display-tooltip-when-elided="true" name="continueButton" style="margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px;" />
+            <ui:VisualElement name="textContainer" style="align-items: flex-start; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; height: 70px; width: 227px; justify-content: center; right: 0; flex-grow: 1; flex-direction: row;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
