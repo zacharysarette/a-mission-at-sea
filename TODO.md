@@ -6,7 +6,16 @@
 
 - Get The Story System Working
   - Get the system working with Events
-  - Set up Camera Movement
+    - Have script to show/hide story controls on events
+      - set up another player -- done
+      - colider to trigger -- working
+        - "press A" to talk
+          - Setup UI
+          - triggers story pop up
+        - story pops up and 3D controls go away.
+          - "Story State"
+    - Set up Camera Movement
+      - Triggered when entering "Story State"
 
 ## Done
 
